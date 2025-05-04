@@ -1,0 +1,185 @@
+[
+  {
+    "baku": "populer",
+    "tidakBaku": "popular",
+    "jenis": "a",
+    "arti": [
+      "dikenal dan disukai orang banyak (umum): lagu-lagu --",
+      "sesuai dengan kebutuhan masyarakat pada umumnya; mudah dipahami orang banyak: ilmu pengetahuan --",
+      "disukai dan dikagumi orang banyak: pahlawan yang --"
+    ]
+  },
+  {
+    "baku": "aktivitas",
+    "tidakBaku": "aktifitas",
+    "jenis": "n",
+    "arti": [
+      "keaktifan; kegiatan: -- siswa dalam organisasi sangat menunjang prestasi belajar"
+    ]
+  },
+  {
+    "baku": "hierarki",
+    "tidakBaku": "hirarki",
+    "jenis": "n",
+    "arti": [
+      "urutan tingkatan atau jenjang jabatan (pangkat): -- dalam pemerintahan"
+    ]
+  },
+  {
+    "baku": "sekadar",
+    "tidakBaku": "sekedar",
+    "jenis": "adv",
+    "arti": [
+      "hanya (tidak lebih dari yang disebutkan): diadakan -- untuk bersenang-senang",
+      "sebatas; sebanyak: dibolehkan meminjam uang -- yang diperlukan"
+    ]
+  },
+  {
+    "baku": "konkret",
+    "tidakBaku": "kongkrit",
+    "jenis": "a",
+    "arti": [
+      "nyata; benar-benar ada (berwujud, dapat dilihat, diraba, dsb): bukti yang --",
+      "dapat ditangkap indera: objek yang --"
+    ]
+  },
+  {
+    "baku": "risiko",
+    "tidakBaku": "resiko",
+    "jenis": "n",
+    "arti": [
+      "akibat yang kurang menyenangkan (merugikan, membahayakan) dari suatu perbuatan atau tindakan: apa pun --nya, saya akan menerimanya; dia berani menanggung -- dari tindakannya itu"
+    ]
+  },
+  {
+    "baku": "memengaruhi",
+    "tidakBaku": "mempengaruhi",
+    "jenis": "v",
+    "arti": [
+      "berpengaruh pada: keadaan batin seseorang akan ~ daya kerjanya",
+      "mengenakan pengaruh pada: calo itu berusaha ~ wanita itu agar ia mau menjual mutiaranya"
+    ]
+  },
+  {
+    "baku": "introspeksi",
+    "tidakBaku": "interospeksi",
+    "jenis": "n",
+    "arti": [
+      "peninjauan atau koreksi terhadap (perbuatan, sikap, kelemahan, kesalahan, dan sebagainya) diri sendiri; muhasabah; wawas diri"
+    ]
+  },
+  {
+    "baku": "abjad",
+    "tidakBaku": "abjat",
+    "jenis": "n",
+    "arti": [
+      "kumpulan huruf (aksara) berdasarkan urutan yang lazim dalam bahasa tertentu",
+      "sistem aksara yang melambangkan bunyi bahasa yang dipakai untuk menuliskan bahasa"
+    ]
+  },
+  {
+    "baku": "afdal",
+    "tidakBaku": "afdol",
+    "jenis": "a",
+    "arti": [
+      "lebih baik; lebih utama: salat baru -- apabila dilaksanakan dengan baik dan tidak menyimpang dari rukunnya",
+      "lengkap; komplet: bagi mereka rasanya kurang -- apabila berbuka puasa tidak ada buah kurma"
+    ]
+  },
+  {
+    "baku": "ambulans",
+    "tidakBaku": "ambulan",
+    "jenis": "n",
+    "arti": [
+      "kendaraan (mobil dan sebagainya) yang dilengkapi peralatan medis untuk mengangkut orang sakit, korban kecelakaan, dan sebagainya: korban kecelakaan itu segera diangkut dengan -- ke rumah sakit"
+    ]
+  },
+  {
+    "baku": "antre",
+    "tidakBaku": "antri",
+    "jenis": ["v", "n"],
+    "arti": [
+      { "jenis": "v", "definisi": "berdiri berderet-deret..." },
+      { "jenis": "n", "definisi": "deretan orang yang sedang menunggu giliran" }
+    ]
+  },
+  {
+    "baku": "analisis",
+    "tidakBaku": "analisa",
+    "jenis": ["n", "n Man", "n Kim", "n", "n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "penyelidikan terhadap suatu peristiwa (karangan, perbuatan, dan sebagainya) untuk mengetahui keadaan yang sebenarnya (sebab musabab, duduk perkaranya, dan sebagainya)"
+      },
+      {
+        "jenis": "n Man",
+        "definisi": "penguraian suatu pokok atas berbagai bagiannya dan penelaahan bagian itu sendiri serta hubungan antarbagian untuk memperoleh pengertian yang tepat dan pemahaman arti keseluruhan"
+      },
+      {
+        "jenis": "n Kim",
+        "definisi": "penyelidikan kimia dengan menguraikan sesuatu untuk mengetahui zat bagiannya dan sebagainya"
+      },
+      { "jenis": "n", "definisi": "penjabaran sesudah dikaji sebaik-baiknya" },
+      {
+        "jenis": "n",
+        "definisi": "pemecahan persoalan yang dimulai dengan dugaan akan kebenarannya"
+      }
+    ]
+  },
+  {
+    "baku": "cedera",
+    "tidakBaku": "cidera",
+    "jenis": "a",
+    "arti": [
+      "cacat (ada luka) sedikit: akibat kecelakaan itu, kakinya --",
+      "ada cacatnya; rusak",
+      "merana (karena berpenyakitan dan sebagainya)",
+      "rugi"
+    ]
+  },
+  {
+    "baku": "detail",
+    "tidakBaku": "detil",
+    "jenis": "n",
+    "arti": ["bagian yang kecil-kecil (sangat terperinci); segala hal ihwal"]
+  },
+  {
+    "baku": "diagnosis",
+    "tidakBaku": "diagnosa",
+    "jenis": ["n", "n Sos"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "penentuan jenis penyakit dengan cara meneliti (memeriksa) gejala-gejalanya"
+      },
+      { "jenis": "n Sos", "definisi": "pemeriksaan terhadap suatu hal" }
+    ]
+  },
+  {
+    "baku": "distilasi",
+    "tidakBaku": "destilasi",
+    "jenis": "n",
+    "arti": [
+      "proses memanaskan benda cair atau padat hingga berubah menjadi uap yang disalurkan ke dalam bejana yang terpisah, kemudian dikondensasikan dengan pendingin: -- minyak kayu putih"
+    ]
+  },
+  {
+    "baku": "dividen",
+    "tidakBaku": "deviden",
+    "jenis": "n Dag",
+    "arti": [
+      "bagian laba atau pendapatan perusahaan yang besarnya ditetapkan oleh direksi serta disahkan oleh rapat pemegang saham untuk dibagikan kepada para pemegang saham",
+      "sejumlah uang yang berasal dari hasil keuntungan yang dibayarkan kepada pemegang saham sebuah perseroan"
+    ]
+  },
+  {
+    "baku": "ekstrem",
+    "tidakBaku": "ekstrim",
+    "jenis": "a",
+    "arti": [
+      "paling ujung (paling tinggi, paling keras, dan sebagainya)",
+      "sangat keras dan teguh; fanatik: mereka termasuk golongan -- dalam pendirian mereka"
+    ]
+  }
+]

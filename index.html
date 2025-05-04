@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan EYD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Beranda Awal -->
+    <div class="beranda">
+      <div class="card">
+        <h1 class="judul">LATIHAN EYD</h1>
+        <div class="pilihan">
+          <p class="subjudul">Pilih latihan:</p>
+          <div class="grid">
+            <button class="latihan-btn" id="kata-baku">
+              Latihan Kata Baku
+            </button>
+            <button class="latihan-btn">Latihan Tanda Baca (segera)</button>
+            <button class="latihan-btn">Latihan Penulisan Kata (segera)</button>
+            <button class="latihan-btn">
+              Latihan Penggunaan Huruf (segera)
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Beranda Kata Baku -->
+    <div class="kata-baku">
+      <div class="card-2">
+        <h1 class="judul-2">LATIHAN KATA BAKU</h1>
+        <div class="menu">
+          <div class="setting">
+            <div class="setting-title" id="soal">Jumlah Soal</div>
+            <div class="setting-control" id="pengaturan-soal">
+              <button class="btn-control" id="kurang-soal">−</button>
+              <div class="value-box" id="jumlah-soal">20</div>
+              <button class="btn-control" id="tambah-soal">+</button>
+            </div>
+          </div>
+          <div class="setting">
+            <div class="setting-title" id="timer">Timer (detik)</div>
+            <div class="setting-control" id="pengaturan-timer">
+              <button class="btn-control" id="kurang-timer">−</button>
+              <div class="value-box" id="jumlah-timer">5</div>
+              <button class="btn-control" id="tambah-timer">+</button>
+            </div>
+          </div>
+        </div>
+        <button class="mulai-btn">MULAI</button>
+      </div>
+    </div>
+    <!-- Menu Soal -->
+    <div class="soal">
+      <div class="card-3">
+        <h1 class="judul-3">MANA YANG BAKU?</h1>
+        <div class="menu-3">
+          <button class="opsi-btn" id="soal-1">populer</button>
+          <button class="opsi-btn" id="soal-2">popular</button>
+        </div>
+      </div>
+    </div>
+    <!-- Penjelasan dan Hasil -->
+    <div class="container">
+      <div class="result-box">
+        <div class="result-header">
+          <h1>BENAR!</h1>
+        </div>
+        <div class="result-body">
+          <h2 class="kata-baku">populer</h2>
+          <p class="tidak-baku">bentuk tidak baku: <strong>popular</strong></p>
+          <ol class="arti-list">
+            <li>
+              <span class="merah">a</span> dikenal dan disukai orang banyak
+              (umum): lagu-lagu --
+            </li>
+            <li>
+              <span class="merah">a</span> sesuai dengan kebutuhan masyarakat
+              pada umumnya; mudah dipahami orang banyak: ilmu pengetahuan --
+            </li>
+            <li>
+              <span class="merah">a</span> disukai dan dikagumi orang banyak:
+              pahlawan yang --
+            </li>
+          </ol>
+        </div>
+        <div class="container-lanjut-selesai">
+          <button class="lanjut-selesai-btn">LANJUT</button>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">Created by Rakutsan</div>
+    <script src="script.js"></script>
+  </body>
+</html>

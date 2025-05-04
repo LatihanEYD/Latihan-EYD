@@ -1,0 +1,478 @@
+/* Beranda Awal */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom, #92ccee, #6ca8d9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.beranda {
+  flex: 1; /* 👈 Biar ngisi sisa tinggi */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 6px #d8d8d8, 0px 8px 0px 5px #549bbd;
+  display: inline-block;
+}
+
+.judul {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 1.5rem;
+  color: #222;
+  text-align: center;
+}
+
+.pilihan {
+  border-top: 1.5px solid #c6c6c6;
+}
+
+.subjudul {
+  font-size: 1.2rem;
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.latihan-btn {
+  padding: 1rem;
+  background-color: #72bce0;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 0 #5da0c2;
+  position: relative;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  overflow: hidden;
+}
+
+.latihan-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #5da0c2;
+}
+
+.latihan-btn::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.latihan-btn:hover::after {
+  width: 40%;
+}
+
+.copyright {
+  padding: 2rem;
+  text-align: center;
+  margin-top: auto;
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Kata Baku */
+
+.kata-baku {
+  text-align: center;
+  display: none;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-2 {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 6px #d8d8d8, 0px 8px 0px 5px #549bbd;
+}
+
+.menu {
+  border-top: 1.5px solid #d8d8d8;
+  border-bottom: 1.5px solid #d8d8d8;
+}
+
+.judul-2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1.5rem;
+  color: #222;
+  text-align: center;
+}
+
+.setting {
+  background-color: #b5daf0;
+  border-radius: 15px;
+  margin: 2.2rem 3.5rem;
+  box-shadow: 0px 6px 0 #a2c2cd, 0px 8px 0px 5px #f2f2f2;
+}
+
+.setting-title {
+  font-weight: bold;
+  font-size: 1.08rem;
+  padding: 1rem;
+  color: #2a5968;
+}
+
+.setting-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1.5px solid #52a8cf;
+  padding: 1rem;
+}
+
+.btn-control {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+  box-shadow: 0px 4px 0 #d8d8d8, 0px 6px 0px 1px #9ebece;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn-control:active {
+  transform: translateY(4px);
+  box-shadow: 1px 1px 0 #d8d8d8, 0px 1px 0px 0px #9ebece;
+}
+
+.value-box {
+  width: 20rem;
+  background-color: #499abe;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.08rem;
+}
+
+.mulai-btn {
+  background-color: #499abe;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1.5rem;
+  box-shadow: 0px 4px 0 #3d829c, 0px 6px 0px 1px #d9d9d9;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.mulai-btn:active {
+  transform: translateY(4px);
+  box-shadow: 1px 1px 0 #5da0c2, 0px 1px 0px 0px #d9d9d9;
+}
+
+/* Soal */
+
+.soal {
+  text-align: center;
+  display: none;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-3 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 6px #d8d8d8, 0px 8px 0px 5px #549bbd;
+}
+
+.judul-3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem;
+  color: #222;
+  text-align: center;
+}
+
+.menu-3 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1.5px solid #d8d8d8;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.opsi-btn {
+  flex: 1;
+  padding: 1.2rem 5rem 1.2rem 5rem;
+  background-color: #5d9fc1;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 5px 0 #3d829c, 0px 7px 0px 1px #d9d9d9;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.opsi-btn:active {
+  transform: translateY(4px);
+  box-shadow: 1px 1px 0 #5da0c2, 0px 1px 0px 0px #d9d9d9;
+}
+
+/* Penjelasan dan Hasil */
+.container {
+  display: none;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result-box {
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0px 6px #d8d8d8, 0px 8px 0px 5px #549bbd;
+  background-color: white;
+}
+
+.result-header {
+  background-color: #58b36d;
+  padding: 2rem;
+  text-align: center;
+}
+
+.result-header h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.result-body {
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.kata-baku {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.tidak-baku {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.arti-list {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  color: #222;
+  line-height: 1.6;
+}
+
+.arti-list li {
+  margin-bottom: 1rem;
+}
+
+.merah {
+  color: red;
+  font-weight: bold;
+}
+
+.container-lanjut-selesai {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  border-top: 2px solid #d8d8d8;
+}
+
+.lanjut-selesai-btn {
+  background-color: #5d9fc1;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  width: 15rem;
+  padding: 1.2rem;
+  box-shadow: 0px 5px 0 #3d829c, 0px 7px 0px 1px #d9d9d9;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  font-weight: bold;
+}
+
+.lanjut-selesai-btn:active {
+  transform: translateY(4px);
+  box-shadow: 1px 1px 0 #5da0c2, 0px 1px 0px 0px #d9d9d9;
+}
+
+/* === RESPONSIVE DESIGN LIGHT MODE === */
+
+/* Tablet (maks. 1024px) */
+@media (max-width: 1024px) {
+  .judul,
+  .dark-mode .judul {
+    font-size: 2rem;
+  }
+
+  .judul-2,
+  .judul-3,
+  .dark-mode .judul-2,
+  .dark-mode .judul-3 {
+    font-size: 1.5rem;
+  }
+
+  .grid,
+  .dark-mode .grid {
+    grid-template-columns: 1fr; /* Satu kolom di tablet */
+  }
+
+  .setting,
+  .dark-mode .setting {
+    margin: 1.5rem 2rem;
+  }
+
+  .btn-control {
+    width: 4rem;
+    height: 2.5rem;
+  }
+
+  .value-box,
+  .dark-mode .value-box {
+    width: 100%;
+  }
+
+  .opsi-btn,
+  .dark-mode .opsi-btn {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .result-box {
+    margin: 10rem;
+  }
+
+  .result-header h1 {
+    font-size: 2rem;
+  }
+
+  .lanjut-selesai-btn,
+  .dark-mode .lanjut-selesai-btn {
+    width: 12rem;
+    padding: 1rem;
+  }
+}
+
+/* HP (maks. 768px) */
+@media (max-width: 768px) {
+  .judul,
+  .dark-mode .judul {
+    font-size: 1.7rem;
+    margin: 1rem;
+  }
+
+  .judul-2,
+  .judul-3,
+  .dark-mode .judul-2,
+  .dark-mode .judul-3 {
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
+
+  .subjudul,
+  .dark-mode .subjudul {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* Satu kolom di HP */
+    margin: 1rem;
+    gap: 0.8rem;
+  }
+
+  .setting-title,
+  .dark-mode .setting-title {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .btn-control {
+    width: 4rem;
+    height: 2.5rem;
+  }
+
+  .value-box,
+  .dark-mode .value-box {
+    font-size: 0.95rem;
+    width: 100%;
+  }
+
+  .opsi-btn,
+  .dark-mode .opsi-btn {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .result-box {
+    margin: 5rem;
+  }
+
+  .result-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .result-body,
+  .dark-mode .result-body {
+    padding: 1rem;
+  }
+
+  .kata-baku,
+  .dark-mode .kata-baku {
+    font-size: 1.4rem;
+  }
+
+  .tidak-baku,
+  .dark-mode .tidak-baku {
+    font-size: 1rem;
+  }
+
+  .lanjut-selesai-btn {
+    width: 100%;
+    font-size: 0.95rem;
+    padding: 1rem;
+  }
+}
