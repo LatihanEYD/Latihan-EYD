@@ -181,5 +181,715 @@
       "paling ujung (paling tinggi, paling keras, dan sebagainya)",
       "sangat keras dan teguh; fanatik: mereka termasuk golongan -- dalam pendirian mereka"
     ]
+  },
+  {
+    "baku": "nasihat",
+    "tidakBaku": "nasehat",
+    "jenis": "n",
+    "arti": [
+      "ajaran atau pelajaran baik; anjuran (petunjuk, peringatan, teguran) yang baik: lebih baik aku turuti -- ibu; beroleh -- dari kepala kantornya",
+      "ibarat yang terkandung dalam suatu cerita dan sebagainya; moral: cerita itu mengandung -- bagi kita sekalian"
+    ]
+  },
+  {
+    "baku": "standar",
+    "tidakBaku": "standard",
+    "jenis": "n",
+    "arti": [
+      "panji-panji; bendera (sebagai lambang): -- Kerajaan Inggris",
+      "alat penopang yang berkaki (untuk menaruh bendera, menyangga sepeda, penopang alat potret, dan sebagainya)"
+    ]
+  },
+  {
+    "baku": "objek",
+    "tidakBaku": "obyek",
+    "jenis": ["n", "n Kim", "n Ling", "n", "n Fis"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "hal, perkara, atau orang yang menjadi pokok pembicaraan"
+      },
+      {
+        "jenis": "n Kim",
+        "definisi": "benda, hal, dan sebagainya yang dijadikan sasaran untuk diteliti, diperhatikan, dan sebagainya: -- penelitian ini adalah tata kehidupan suku terasing di Riau"
+      },
+      {
+        "jenis": "n Ling",
+        "definisi": "nomina yang melengkapi verba transitif dalam klausa, misalnya teh manis dalam kalimat Kiki minum teh manis"
+      },
+      {
+        "jenis": "n",
+        "definisi": "hal atau benda yang menjadi sasaran usaha sambilan: berdagang kain menjadi salah satu -- orang- orang di kota itu"
+      },
+      {
+        "jenis": "n Fis",
+        "definisi": "titik atau himpunan yang bertindak sebagai sumber cahaya bagi suatu lensa, cermin, atau bagi suatu sistem lensa"
+      }
+    ]
+  },
+  {
+    "baku": "praktik",
+    "tidakBaku": "praktek",
+    "jenis": "n",
+    "arti": [
+      "pelaksanaan secara nyata apa yang disebut dalam teori: teorinya mudah, tetapi -- nya sukar",
+      "pelaksanaan pekerjaan (tentang dokter, pengacara, dan sebagainya): -- dokter dibuka mulai pukul 15.00",
+      "perbuatan menerapkan teori (keyakinan dan sebagainya); pelaksanaan: aturan itu menemui kesukaran dalam -- nya"
+    ]
+  },
+  {
+    "baku": "satelit",
+    "tidakBaku": "satelite",
+    "jenis": ["n", "n Ki", "n Ki", "n Ki", "n Ki"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "bintang siarah yang mengedari bintang siarah yang lebih besar: bulan ialah -- bumi"
+      },
+      {
+        "jenis": "n Ki",
+        "definisi": "pengikut: negara -- , negara pengikut negara lain yang lebih besar atau yang lebih kuat"
+      },
+      {
+        "jenis": "n Ki",
+        "definisi": "alat yang diluncurkan mengedari planet: -- buatan"
+      },
+      {
+        "jenis": "n Ki",
+        "definisi": "baru dan kecil (tentang kota): kota -- , kota kecil yang sengaja dibangun di dekat kota besar"
+      }
+    ]
+  },
+  {
+    "baku": "lazim",
+    "tidakBaku": "lasim",
+    "jenis": "a",
+    "arti": [
+      "sudah biasa; sudah menjadi kebiasaan; sudah umum (terdapat, terjadi, dilakukan, dan sebagainya): sekarang sudah -- wanita berambut pendek"
+    ]
+  },
+  {
+    "baku": "masjid",
+    "tidakBaku": "mesjid",
+    "jenis": "n",
+    "arti": [
+      "rumah atau bangunan tempat bersembahyang orang Islam: setiap Jumat dilakukan salat bersama di --"
+    ]
+  },
+  {
+    "baku": "utang",
+    "tidakBaku": "hutang",
+    "jenis": "n",
+    "arti": [
+      "uang yang dipinjam dari orang lain: membayar -- di bank",
+      "kewajiban membayar kembali apa yang sudah diterima: -- budi dibawa mati"
+    ]
+  },
+  {
+    "baku": "izin",
+    "tidakBaku": "ijin",
+    "jenis": ["n", "v Cak"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "pernyataan mengabulkan (tidak melarang dan sebagainya); per-setujuan membolehkan: ia telah mendapat -- untuk mendiri-kan perusahaan mebel"
+      },
+      {
+        "jenis": "v Cak",
+        "definisi": "meminta izin; memohon izin: hari ini saya -- tidak masuk kuliah karena ada keperluan"
+      }
+    ]
+  },
+  {
+    "baku": "saksama",
+    "tidakBaku": "seksama",
+    "jenis": "a",
+    "arti": [
+      "teliti; cermat: surat-surat itu diperiksanya dengan --; semuanya dikerjakan dengan --",
+      "tepat benar; jitu: segala pertanyaan dijawab dengan --; kita harus mendidik anak-anak agar biasa mengerjakan hitungan dengan --"
+    ]
+  },
+  {
+    "baku": "higienis",
+    "tidakBaku": "higenis",
+    "jenis": "a",
+    "arti": [
+      "bersih dan sehat menurut ilmu kesehatan: makanan yang -- harus dikonsumsi sehari-hari"
+    ]
+  },
+  {
+    "baku": "objektivitas",
+    "tidakBaku": "obyektivitas",
+    "jenis": "n",
+    "arti": [
+      "sifat objektif; sikap tidak memihak: hakim harus menjaga -- dalam memutus perkara"
+    ]
+  },
+  {
+    "baku": "kuitansi",
+    "tidakBaku": "kwitansi",
+    "jenis": "n",
+    "arti": [
+      "bukti penerimaan sejumlah uang; tanda bukti pembayaran: mohon simpan -- ini sebagai bukti"
+    ]
+  },
+  {
+    "baku": "kualitas",
+    "tidakBaku": "kwalitas",
+    "jenis": "n",
+    "arti": ["tingkat baik buruknya sesuatu: kita harus menjaga -- pelayanan"]
+  },
+  {
+    "baku": "subjek",
+    "tidakBaku": "subyek",
+    "jenis": ["n", "n Ling", "n Psi"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "orang atau sesuatu yang menjadi pokok pembicaraan"
+      },
+      {
+        "jenis": "n Ling",
+        "definisi": "bagian kalimat yang menandai apa atau siapa yang dibicarakan"
+      },
+      {
+        "jenis": "n Psi",
+        "definisi": "orang yang menjadi sasaran dalam eksperimen atau pengamatan psikologis"
+      }
+    ]
+  },
+  {
+    "baku": "kreativitas",
+    "tidakBaku": "kreatifitas",
+    "jenis": "n",
+    "arti": [
+      "kemampuan untuk menciptakan atau menghasilkan sesuatu yang baru dan orisinal"
+    ]
+  },
+  {
+    "baku": "ekosistem",
+    "tidakBaku": "ekosistim",
+    "jenis": "n",
+    "arti": [
+      "keanekaragaman komunitas makhluk hidup dan lingkungan fisiknya yang berinteraksi sebagai satu sistem ekologi"
+    ]
+  },
+  {
+    "baku": "metode",
+    "tidakBaku": "metoda",
+    "jenis": "n",
+    "arti": [
+      "cara kerja yang sistematik untuk memudahkan pelaksanaan suatu kegiatan guna mencapai tujuan tertentu"
+    ]
+  },
+  {
+    "baku": "muazin",
+    "tidakBaku": "muadzin",
+    "jenis": "n",
+    "arti": ["orang yang mengumandangkan azan sebagai tanda masuk waktu salat"]
+  },
+  {
+    "baku": "atlet",
+    "tidakBaku": "atlit",
+    "jenis": "n",
+    "arti": [
+      "orang yang terlatih dan mengikuti perlombaan atau pertandingan olahraga"
+    ]
+  },
+  {
+    "baku": "ijazah",
+    "tidakBaku": "ijasah",
+    "jenis": "n",
+    "arti": [
+      "surat tanda tamat belajar atau bukti telah menyelesaikan suatu jenjang pendidikan"
+    ]
+  },
+  {
+    "baku": "infrastruktur",
+    "tidakBaku": "infastruktur",
+    "jenis": "n",
+    "arti": [
+      "sarana dan prasarana dasar fisik yang dibutuhkan untuk mendukung kegiatan ekonomi, sosial, dan pelayanan umum"
+    ]
+  },
+  {
+    "baku": "indikator",
+    "tidakBaku": "indikatur",
+    "jenis": "n",
+    "arti": ["sesuatu yang dapat memberikan petunjuk atau tanda"]
+  },
+  {
+    "baku": "integrasi",
+    "tidakBaku": "intergrasi",
+    "jenis": "n",
+    "arti": ["pembauran hingga menjadi satu kesatuan yang utuh"]
+  },
+  {
+    "baku": "kanker",
+    "tidakBaku": "kangker",
+    "jenis": "n",
+    "arti": [
+      "penyakit yang disebabkan oleh pertumbuhan sel abnormal yang tidak terkendali"
+    ]
+  },
+  {
+    "baku": "kompleks",
+    "tidakBaku": "komplek",
+    "jenis": ["n", "a"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "kumpulan bangunan atau satuan yang saling berkaitan"
+      },
+      {
+        "jenis": "a",
+        "definisi": "rumit; tidak sederhana"
+      }
+    ]
+  },
+  {
+    "baku": "karier",
+    "tidakBaku": "karir",
+    "jenis": "n",
+    "arti": ["kemajuan dalam kehidupan kerja seseorang"]
+  },
+  {
+    "baku": "faksimile",
+    "tidakBaku": "faksimil",
+    "jenis": "n",
+    "arti": ["mesin atau sistem untuk mengirim salinan dokumen melalui telepon"]
+  },
+  {
+    "baku": "aksesori",
+    "tidakBaku": "aksesoris",
+    "jenis": "n",
+    "arti": ["perlengkapan tambahan yang bukan bagian utama"]
+  },
+  {
+    "baku": "batalion",
+    "tidakBaku": "bataliyon",
+    "jenis": "n",
+    "arti": ["kesatuan militer yang terdiri atas beberapa kompi"]
+  },
+  {
+    "baku": "bazar",
+    "tidakBaku": "bazaar",
+    "jenis": "n",
+    "arti": ["pasar dadakan atau pasar amal"]
+  },
+  {
+    "baku": "belasungkawa",
+    "tidakBaku": "bela sungkawa",
+    "jenis": "n",
+    "arti": ["ungkapan turut sedih atas kematian seseorang"]
+  },
+  {
+    "baku": "fobia",
+    "tidakBaku": "phobia",
+    "jenis": "n",
+    "arti": ["rasa takut berlebihan terhadap sesuatu"]
+  },
+  {
+    "baku": "apotek",
+    "tidakBaku": "apotik",
+    "jenis": "n",
+    "arti": ["toko tempat menjual obat-obatan"]
+  },
+  {
+    "baku": "telanjur",
+    "tidakBaku": "terlanjur",
+    "jenis": "v",
+    "arti": ["sudah terlebih dahulu (dilakukan) meskipun tidak diinginkan"]
+  },
+  {
+    "baku": "rida",
+    "tidakBaku": "ridho",
+    "jenis": "n",
+    "arti": ["ikhlas; rela; menerima dengan lapang dada"]
+  },
+  {
+    "baku": "teoretis",
+    "tidakBaku": "teoritis",
+    "jenis": "a",
+    "arti": ["bersifat teori; berdasarkan teori"]
+  },
+  {
+    "baku": "silakan",
+    "tidakBaku": "silahkan",
+    "jenis": "v",
+    "arti": ["kata sopan mempersilakan seseorang melakukan sesuatu"]
+  },
+  {
+    "baku": "survei",
+    "tidakBaku": "survey",
+    "jenis": "n",
+    "arti": ["pengumpulan data atau pendapat dari responden"]
+  },
+  {
+    "baku": "sekretaris",
+    "tidakBaku": "sekertaris",
+    "jenis": "n",
+    "arti": ["orang (pegawai, anggota pengurus) yang diserahi pekerjaan tulis-menulis, atau surat-menyurat, dan sebagainya; penulis; panitera"]
+  },
+  {
+    "baku": "rapor",
+    "tidakBaku": "raport",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "laporan resmi (kepada yang wajib menerimanya); lapor"
+      }
+    ]
+  },
+  {
+    "baku": "makhluk",
+    "tidakBaku": "mahluk",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "sesuatu yang dijadikan atau diciptakan oleh Tuhan (seperti manusia, binatang, dan tumbuh-tumbuhan)"
+      }
+    ]
+  },
+  {
+    "baku": "kuesioner",
+    "tidakBaku": "kuisioner",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "alat riset atau survei yang terdiri atas serangkaian pertanyaan tertulis, bertujuan mendapatkan tanggapan dari kelompok orang terpilih melalui wawancara pribadi atau melalui pos; daftar pertanyaan"
+      }
+    ]
+  },
+  {
+    "baku": "jenderal",
+    "tidakBaku": "jendral",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "kelompok pangkat perwira tinggi dalam angkatan darat yang meliputi jenderal besar TNI, jenderal TNI, letnan jenderal TNI, mayor jenderal TNI, dan brigadir jenderal TNI"
+      },
+      {
+        "jenis": "n",
+        "definisi": "kelompok pangkat perwira tinggi dalam kepolisian yang meliputi jenderal polisi, komisaris jenderal polisi, inspektur jenderal polisi, dan brigadir jenderal polisi"
+      },
+      {
+        "jenis": "n Cak",
+        "definisi": "orang yang paling berpengaruh (menentukan dan sebagainya) dalam organisasi"
+      }
+    ]
+  },
+  {
+    "baku": "intelijen",
+    "tidakBaku": "inteligen",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "orang yang bertugas mencari (meng-amat-amati) seseorang; dinas rahasia"
+      }
+    ]
+  },
+  {
+    "baku": "genius",
+    "tidakBaku": "jenius",
+    "jenis": ["n", "a"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "orang yang berbakat luar biasa"
+      },
+      {
+        "jenis": "a",
+        "definisi": "berkemampuan luar biasa dalam berpikir dan mencipta"
+      }
+    ]
+  },
+  {
+    "baku": "esai",
+    "tidakBaku": "essai",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "karangan prosa yang membahas suatu masalah secara sepintas lalu dari sudut pandang pribadi penulisnya"
+      }
+    ]
+  },
+  {
+    "baku": "bengkuang",
+    "tidakBaku": "bengkoang",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "pohon, daunnya biasa dibuat lajang, tikar, tutup kepala, dan sebagainya; Pandanus antrocarpus"
+      },
+      {
+        "jenis": "n",
+        "definisi": "buah bengkuang"
+      }
+    ]
+  },
+  {
+    "baku": "bolpoin",
+    "tidakBaku": "bolpen",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "pena yang bermata bulat (tumpul) yang dilengkapi dengan tinta kental dalam tabung; pena bola"
+      }
+    ]
+  },
+  {
+    "baku": "cokelat",
+    "tidakBaku": "coklat",
+    "jenis": ["n Bot", "n", "n"],
+    "arti": [
+      {
+        "jenis": "n Bot",
+        "definisi": "pohon yang termasuk jenis tanaman daerah panas, tingginya antara 5—6 m, berbunga dan berbuah sepanjang tahun, buahnya berwarna ungu atau kuning bergantungan pada batang yang besar, bentuknya lonjong, panjangnya antara 15—20 cm, mengandung biji seperti kacang-kacangan antara 50—100 biji, biasa diolah menjadi bubuk atau kristal, dibuat minuman atau makanan lezat lainnya; Theobroma cacao"
+      },
+      {
+        "jenis": "n",
+        "definisi": "bubuk tepung dari biji cokelat"
+      },
+      {
+        "jenis": "n",
+        "definisi": " gula-gula yang dibuat dari bubuk cokelat"
+      }
+    ]
+  },
+  {
+    "baku": "familier",
+    "tidakBaku": "familiar",
+    "jenis": ["a Cak"],
+    "arti": [
+      {
+        "jenis": "a",
+        "definisi": "bersifat kekeluargaan; akrab: pertemuan itu berlangsung dalam suasana --"
+      }
+    ]
+  },
+  {
+    "baku": "hakikat",
+    "tidakBaku": "hakekat",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "intisari atau dasar: dia yang menanamkan -- ajaran Islam di hatiku"
+      },
+      {
+        "jenis": "n",
+        "definisi": "kenyataan yang sebenarnya (sesungguhnya): pada -- nya mereka orang baik-baik"
+      }
+    ]
+  },
+  {
+    "baku": "ikhlas",
+    "tidakBaku": "ihlas",
+    "jenis": ["a"],
+    "arti": [
+      {
+        "jenis": "a",
+        "definisi": "bersih hati; tulus hati: memberi pertolongan dengan --; mereka benar-benar --"
+      }
+    ]
+  },
+  {
+    "baku": "jenazah",
+    "tidakBaku": "jenasah",
+    "jenis": ["n Hor"],
+    "arti": [
+      {
+        "jenis": "n hor",
+        "definisi": "mayat"
+      }
+    ]
+  },
+  {
+    "baku": "lubang",
+    "tidakBaku": "lobang",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "liang"
+      },
+      {
+        "jenis": "n",
+        "definisi": "lekuk di tanah dan sebagainya: ia menggali -- untuk menanam pisang"
+      },
+      {
+        "jenis": "n Fis",
+        "definisi": " lowongan yang ditinggalkan oleh elektron yang berpindah dalam zat padat dan bermuatan positif dan dapat menghantar arus listrik"
+      }
+    ]
+  },
+  {
+    "baku": "orisinal",
+    "tidakBaku": "orisinil",
+    "jenis": ["a"],
+    "arti": [
+      {
+        "jenis": "a",
+        "definisi": "asli; tulen"
+      }
+    ]
+  },
+  {
+    "baku": "teknik",
+    "tidakBaku": "tehnik",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "pengetahuan dan kepandaian membuat sesuatu yang berkenaan dengan hasil industri (bangunan, mesin): sekolah --; ahli --"
+      },
+      {
+        "jenis": "n",
+        "definisi": "cara (kepandaian dan sebagainya) membuat atau melakukan sesuatu yang berhubungan dengan seni"
+      },
+      {
+        "jenis": "n",
+        "definisi": "metode atau sistem mengerjakan sesuatu"
+      }
+    ]
+  },
+  {
+    "baku": "terampil",
+    "tidakBaku": "trampil",
+    "jenis": ["a"],
+    "arti": [
+      {
+        "jenis": "a",
+        "definisi": "cakap dalam menyelesaikan tugas; mampu dan cekatan"
+      }
+    ]
+  },
+  {
+    "baku": "provinsi",
+    "tidakBaku": "propinsi",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "wilayah atau daerah yang dikepalai oleh gubernur"
+      }
+    ]
+  },
+  {
+    "baku": "meterai",
+    "tidakBaku": "materai",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "cap tanda berupa gambar yang tercantum pada kertas atau terukir (terpateri dan sebagainya) pada kayu, besi, dan sebagainya; cap; tera; segel"
+      }
+    ]
+  },
+  {
+    "baku": "junior",
+    "tidakBaku": "yunior",
+    "jenis": ["a", "a"],
+    "arti": [
+      {
+        "jenis": "a",
+        "definisi": "lebih muda, khususnya antara dua orang bersaudara (kakak beradik) atau antara bapak dan anak yang mempunyai nama akhir sama"
+      },
+      {
+        "jenis": "a",
+        "definisi": "berpangkat atau berkedudukan lebih rendah; lebih muda keanggotaannya: (mahasiswa, pegawai, pemain) --"
+      }
+    ]
+  },
+  {
+    "baku": "hipotesis",
+    "tidakBaku": "hipotesa",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "sesuatu yang dianggap benar untuk alasan atau pengutaraan pendapat (teori, proposisi, dan sebagainya) meskipun kebenarannya masih harus dibuktikan; anggapan dasar"
+      }
+    ]
+  },
+  {
+    "baku": "gerendel",
+    "tidakBaku": "grendel",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "pengunci pintu yang dibuat dari logam, digunakan dengan cara menggeserkan (memutar) ke kanan atau ke kiri; bagian kunci (tanpa anak kunci): kulihat -- pintu kamar ayah berputar"
+      }
+    ]
+  },
+  {
+    "baku": "filsuf",
+    "tidakBaku": "filosof",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "ahli filsafat; ahli pikir"
+      },
+      {
+        "jenis": "n",
+        "definisi": "orang yang berfilsafat"
+      }
+    ]
+  },
+  {
+    "baku": "elite",
+    "tidakBaku": "elit",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "orang-orang terbaik atau pilihan dalam suatu kelompok"
+      },
+      {
+        "jenis": "n",
+        "definisi": "kelompok kecil orang-orang terpandang atau berderajat tinggi (kaum bangsawan, cendekiawan, dan sebagainya)"
+      }
+    ]
+  },
+  {
+    "baku": "cengkih",
+    "tidakBaku": "cengkeh",
+    "jenis": ["n"],
+    "arti": [
+      {
+        "jenis": "n",
+        "definisi": "tanaman produksi, pohonnya tinggi, daunnya rimbun, hidup di dataran tinggi, yang bunganya (buahnya) harum dan pedas, segar rasanya, dipakai sebagai rempah-rempah, isi rokok kretek, dan sebagainya; Eugenia aromatica"
+      },
+      {
+        "jenis": "n",
+        "definisi": "bunga cengkih"
+      },
+      {
+        "jenis": "n",
+        "definisi": "kartu besar (untuk berjudi) yang bergambar bunga cengkih"
+      }
+    ]
+  },
+  {
+    "baku": "bosan",
+    "tidakBaku": "bosen",
+    "jenis": ["a"],
+    "arti": [
+      {
+        "jenis": "a",
+        "definisi": "sudah tidak suka lagi karena sudah terlalu sering atau banyak; jemu: aku sudah -- dengan pidato-pidato itu"
+      }
+    ]
   }
 ]
