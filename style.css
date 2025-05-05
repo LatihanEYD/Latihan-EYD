@@ -14,14 +14,17 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 1rem; /* Tambahan padding pada body */
 }
 
 .beranda {
-  flex: 1; /* 👈 Biar ngisi sisa tinggi */
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%; /* Tambahan: memastikan width 100% */
+  max-width: 800px; /* Tambahan: maksimal lebar */
 }
 
 .card {
@@ -29,6 +32,8 @@ body {
   border-radius: 20px;
   box-shadow: 0px 6px #d8d8d8, 0px 8px 0px 5px #549bbd;
   display: inline-block;
+  width: 100%; /* Tambahan: memastikan width 100% */
+  max-width: 800px; /* Tambahan: maksimal lebar */
 }
 
 .judul {
@@ -108,12 +113,15 @@ body {
   flex: 1;
   flex-direction: column;
   justify-content: center;
+  width: 100%; /* Tambahan: memastikan width 100% */
+  max-width: 800px; /* Tambahan: maksimal lebar */
 }
 
 .card-2 {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0px 6px #d8d8d8, 0px 8px 0px 5px #549bbd;
+  width: 100%; /* Tambahan: memastikan width 100% */
 }
 
 .menu {
@@ -153,8 +161,14 @@ body {
 }
 
 .btn-control {
+  /* Ukuran tetap */
   width: 40px;
   height: 40px;
+
+  /* Pastikan bentuk persegi */
+  aspect-ratio: 1/1;
+
+  /* Style lainnya */
   background: #fff;
   border: none;
   border-radius: 10px;
@@ -164,6 +178,11 @@ body {
   box-shadow: 0px 4px 0 #d8d8d8, 0px 6px 0px 1px #9ebece;
   cursor: pointer;
   transition: transform 0.1s ease, box-shadow 0.1s ease;
+
+  /* Posisi teks di tengah */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-control:active {
@@ -172,7 +191,7 @@ body {
 }
 
 .value-box {
-  width: 20rem;
+  width: 100%;
   background-color: #499abe;
   color: white;
   padding: 0.6rem;
@@ -208,12 +227,15 @@ body {
   flex: 1;
   flex-direction: column;
   justify-content: center;
+  width: 100%; /* Tambahan: memastikan width 100% */
+  max-width: 800px; /* Tambahan: maksimal lebar */
 }
 
 .card-3 {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 6px #d8d8d8, 0px 8px 0px 5px #549bbd;
+  width: 100%; /* Tambahan: memastikan width 100% */
 }
 
 .judul-3 {
@@ -257,6 +279,8 @@ body {
   flex: 1;
   flex-direction: column;
   justify-content: center;
+  width: 100%; /* Tambahan: memastikan width 100% */
+  max-width: 800px; /* Tambahan: maksimal lebar */
 }
 
 .result-box {
@@ -264,6 +288,7 @@ body {
   overflow: hidden;
   box-shadow: 0px 6px #d8d8d8, 0px 8px 0px 5px #549bbd;
   background-color: white;
+  width: 100%; /* Tambahan: memastikan width 100% */
 }
 
 .result-header {
@@ -343,6 +368,14 @@ body {
 
 /* Tablet (maks. 1024px) */
 @media (max-width: 1024px) {
+  .kata-baku,
+  .beranda,
+  .soal,
+  .container {
+    width: 90%; /* Ubah persentase sesuai kebutuhan */
+    max-width: 600px; /* Ubah nilai maksimum sesuai kebutuhan */
+  }
+
   .judul,
   .dark-mode .judul {
     font-size: 2rem;
@@ -366,8 +399,17 @@ body {
   }
 
   .btn-control {
-    width: 4rem;
-    height: 2.5rem;
+    /* Ukuran tetap */
+    width: 40px;
+    height: 40px;
+  }
+
+  .mulai-btn {
+    margin: 1rem 0.5rem 1rem 1rem;
+  }
+
+  .kembali-btn {
+    margin: 1rem 1rem 1rem 0.5rem;
   }
 
   .value-box,
@@ -382,7 +424,7 @@ body {
   }
 
   .result-box {
-    margin: 10rem;
+    width: 100%; /* Perbaikan: mengubah margin menjadi width */
   }
 
   .result-header h1 {
@@ -398,6 +440,18 @@ body {
 
 /* HP (maks. 768px) */
 @media (max-width: 768px) {
+  body {
+    padding: 0.8rem; /* Padding lebih kecil di HP */
+  }
+
+  .kata-baku,
+  .beranda,
+  .soal,
+  .container {
+    width: 90%; /* Ubah persentase sesuai kebutuhan */
+    max-width: 400px; /* Ubah nilai maksimum sesuai kebutuhan */
+  }
+
   .judul,
   .dark-mode .judul {
     font-size: 1.7rem;
@@ -430,15 +484,29 @@ body {
     padding: 0.8rem;
   }
 
+  .setting,
+  .dark-mode .setting {
+    margin: 1rem; /* Margin lebih kecil di HP */
+  }
+
   .btn-control {
-    width: 4rem;
-    height: 2.5rem;
+    width: 36px;
+    height: 36px;
+    font-size: 1.3rem;
   }
 
   .value-box,
   .dark-mode .value-box {
     font-size: 0.95rem;
     width: 100%;
+  }
+
+  .mulai-btn {
+    margin: 1rem 0.5rem 1rem 1rem;
+  }
+
+  .kembali-btn {
+    margin: 1rem 1rem 1rem 0.5rem;
   }
 
   .opsi-btn,
@@ -448,7 +516,7 @@ body {
   }
 
   .result-box {
-    margin: 5rem;
+    width: 100%; /* Perbaikan: mengubah margin menjadi width */
   }
 
   .result-header h1 {
@@ -470,9 +538,288 @@ body {
     font-size: 1rem;
   }
 
-  .lanjut-selesai-btn {
+  .lanjut-selesai-btn,
+  .dark-mode .lanjut-selesai-btn {
     width: 100%;
     font-size: 0.95rem;
     padding: 1rem;
+  }
+
+  .menu-3,
+  .dark-mode .menu-3 {
+    padding: 1rem; /* Padding lebih kecil di HP */
+  }
+}
+
+/* HP (maks. 540px) */
+@media (max-width: 540px) {
+  body {
+    padding: 0.5rem; /* Padding lebih kecil di HP kecil */
+  }
+
+  .kata-baku,
+  .beranda,
+  .soal,
+  .container {
+    width: 90%; /* Ubah persentase sesuai kebutuhan */
+    max-width: 600px; /* Ubah nilai maksimum sesuai kebutuhan */
+  }
+
+  .judul,
+  .dark-mode .judul {
+    font-size: 1.5rem;
+    margin: 0.8rem;
+  }
+
+  .judul-2,
+  .judul-3,
+  .dark-mode .judul-2,
+  .dark-mode .judul-3 {
+    font-size: 1.2rem;
+    margin: 0.8rem;
+  }
+
+  .subjudul,
+  .dark-mode .subjudul {
+    font-size: 0.9rem;
+    margin: 0.8rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* Satu kolom di HP */
+    margin: 0.8rem;
+    gap: 0.6rem;
+  }
+
+  .setting-title,
+  .dark-mode .setting-title {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  .setting,
+  .dark-mode .setting {
+    margin: 1.5rem; /* Margin lebih kecil di HP kecil */
+  }
+
+  .btn-control {
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+  }
+
+  .setting-control {
+    padding: 0.8rem;
+    gap: 0.6rem;
+  }
+
+  .value-box,
+  .dark-mode .value-box {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .mulai-btn {
+    margin: 1rem 0.5rem 1rem 1rem;
+  }
+
+  .kembali-btn {
+    margin: 1rem 1rem 1rem 0.5rem;
+  }
+
+  .opsi-btn,
+  .dark-mode .opsi-btn {
+    padding: 0.7rem;
+    font-size: 0.85rem;
+  }
+
+  .result-header {
+    padding: 1.5rem;
+  }
+
+  .result-header h1 {
+    font-size: 1.4rem;
+  }
+
+  .result-body,
+  .dark-mode .result-body {
+    padding: 0.8rem;
+  }
+
+  .kata-baku,
+  .dark-mode .kata-baku {
+    font-size: 1.2rem;
+  }
+
+  .tidak-baku,
+  .dark-mode .tidak-baku {
+    font-size: 0.9rem;
+  }
+
+  .lanjut-selesai-btn,
+  .dark-mode .lanjut-selesai-btn {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+
+  .menu-3,
+  .dark-mode .menu-3 {
+    padding: 0.8rem;
+    gap: 0.5rem;
+  }
+}
+
+/* HP Iphone SE dan HP kecil sejenis (max.width 390px) */
+@media (max-width: 390px) {
+  body {
+    padding: 0.4rem;
+  }
+
+  .kata-baku,
+  .beranda,
+  .soal,
+  .container {
+    width: 95%; /* Use almost full width */
+    max-width: 300px;
+  }
+
+  .judul,
+  .dark-mode .judul {
+    font-size: 1.3rem;
+    margin: 0.6rem;
+  }
+
+  .judul-2,
+  .judul-3,
+  .dark-mode .judul-2,
+  .dark-mode .judul-3 {
+    font-size: 1.1rem;
+    margin: 0.6rem;
+  }
+
+  .subjudul,
+  .dark-mode .subjudul {
+    font-size: 0.85rem;
+    margin: 0.6rem;
+  }
+
+  .grid,
+  .dark-mode .grid {
+    margin: 0.6rem;
+    gap: 0.7rem;
+  }
+
+  .latihan-btn {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .setting .dark-mode .setting {
+    margin: 1rem 0.8rem;
+  }
+
+  .setting-title,
+  .dark-mode .setting-title {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+
+  .setting-control {
+    padding: 0.6rem;
+    gap: 0.4rem;
+  }
+
+  .btn-control {
+    width: 28px;
+    height: 28px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    box-shadow: 0px 3px 0 #d8d8d8, 0px 4px 0px 1px #9ebece;
+  }
+
+  .value-box,
+  .dark-mode .value-box {
+    font-size: 0.85rem;
+    padding: 0.4rem;
+    border-radius: 8px;
+  }
+
+  .mulai-btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+    margin: 1rem 0.5rem 1rem 1rem;
+  }
+
+  .kembali-btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+    margin: 1rem 1rem 1rem 0.5rem;
+  }
+
+  .menu-3,
+  .dark-mode .menu-3 {
+    padding: 0.6rem;
+    gap: 0.4rem;
+  }
+
+  .opsi-btn {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 10px;
+  }
+
+  .result-header {
+    padding: 1.2rem;
+  }
+
+  .result-header h1 {
+    font-size: 1.2rem;
+  }
+
+  .result-body,
+  .dark-mode .result-body {
+    padding: 0.6rem;
+  }
+
+  .kata-baku,
+  .dark-mode .kata-baku {
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .tidak-baku,
+  .dark-mode .tidak-baku {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  .arti-list,
+  .dark-mode .arti-list {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .arti-list li,
+  .dark-mode .arti-list li {
+    margin-bottom: 0.8rem;
+  }
+
+  .container-lanjut-selesai,
+  .dark-mode .container-lanjut-selesai {
+    padding: 1.2rem;
+  }
+
+  .lanjut-selesai-btn,
+  .dark-mode .lanjut-selesai-btn {
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 0.7rem;
+  }
+
+  .copyright,
+  .dark-mode .copyright {
+    padding: 1.2rem;
+    font-size: 0.8rem;
   }
 }
